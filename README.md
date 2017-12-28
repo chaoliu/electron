@@ -35,10 +35,10 @@ npm install electron --save-dev --save-exact
 
 The `--save-exact` flag is recommended as Electron does not follow semantic
 versioning. For info on how to manage Electron versions in your apps, see
-[Electron versioning](https://electronjs.org/docs/tutorial/versioning).
+[Electron versioning](docs/tutorial/electron-versioning.md).
 
 For more installation options and troubleshooting tips, see
-[installation](https://electronjs.org/docs/tutorial/installation).
+[installation](docs/tutorial/installation.md).
 
 ## Quick start
 
@@ -101,6 +101,7 @@ forums
 - [`electron-jp`](https://electron-jp.slack.com) *(Japanese)*
 - [`electron-tr`](https://electron-tr.herokuapp.com) *(Turkish)*
 - [`electron-id`](https://electron-id.slack.com) *(Indonesia)*
+- [`electron-pl`](https://electronpl.github.io) *(Poland)*
 
 Check out [awesome-electron](https://github.com/sindresorhus/awesome-electron)
 for a community maintained list of useful example apps, tools and resources.

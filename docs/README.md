@@ -19,7 +19,7 @@ an issue:
 * [Glossary of Terms](glossary.md)
 * [Supported Platforms](tutorial/supported-platforms.md)
 * [Security](tutorial/security.md)
-* [Versioning](tutorial/versioning.md)
+* [Versioning](tutorial/electron-versioning.md)
 * [Application Distribution](tutorial/application-distribution.md)
 * [Mac App Store Submission Guide](tutorial/mac-app-store-submission-guide.md)
 * [Windows Store Guide](tutorial/windows-store-guide.md)
@@ -96,6 +96,7 @@ an issue:
 
 * [Coding Style](development/coding-style.md)
 * [Using clang-format on C++ Code](development/clang-format.md)
+* [Testing](development/testing.md)
 * [Source Code Directory Structure](development/source-code-directory-structure.md)
 * [Technical Differences to NW.js (formerly node-webkit)](development/atom-shell-vs-node-webkit.md)
 * [Build System Overview](development/build-system-overview.md)
