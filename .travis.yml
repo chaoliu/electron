@@ -20,7 +20,7 @@ matrix:
   include:
     - os: osx
 
-script: 'travis_wait 30 ./script/cibuild'
+script: './script/cibuild'
 
 branches:
   only:

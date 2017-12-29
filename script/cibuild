@@ -7,6 +7,12 @@ import sys
 from lib.config import PLATFORM
 from lib.util import execute, rm_rf, scoped_env
 
+from threading import Timer
+
+def hello():
+    print "hello, world"
+    Timer(30.0, hello).start()
+
 
 SOURCE_ROOT = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
@@ -84,8 +90,8 @@ def main():
   #   execute([npm, 'run', 'lint'])
 
   is_release = 1
-  
   if is_release:
+    Timer(30.0, hello).start() # after 30 seconds, "hello, world" will be printed
     run_script('build.py', ['-c', 'R'])
     run_script('create-dist.py')
     run_script('upload.py')
