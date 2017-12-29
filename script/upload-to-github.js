@@ -11,7 +11,7 @@ let fileName = process.argv[3]
 let releaseId = process.argv[4]
 
 let githubOpts = {
-  owner: 'electron',
+  owner: 'chaoliu',
   repo: 'electron',
   id: releaseId,
   filePath: filePath,
